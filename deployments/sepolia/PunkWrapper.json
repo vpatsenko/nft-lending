@@ -1,0 +1,178 @@
+{
+  "address": "0x4Eef77380D49eB645f3A78a1e5Ec78efCCeaBF64",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nftContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "approveNFT",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_nftContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_nftContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "isOwner",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_sender",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_nftContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_nftId",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferNFT",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xd5b039da168072a34fc861052e214417b77e68056dc3e40c70b93608b22df293",
+  "receipt": {
+    "to": null,
+    "from": "0x02e037F56728E947e92Af2c05baF7FeF387Ddd06",
+    "contractAddress": "0x4Eef77380D49eB645f3A78a1e5Ec78efCCeaBF64",
+    "transactionIndex": 57,
+    "gasUsed": "292875",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x20bad670490d2c65f756efc58caabaea901e2a51c79df0b0664674e854aa8080",
+    "transactionHash": "0xd5b039da168072a34fc861052e214417b77e68056dc3e40c70b93608b22df293",
+    "logs": [],
+    "blockNumber": 6769012,
+    "cumulativeGasUsed": "13411137",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "bab281e5640fb4f8a58586b3f548739e",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nftContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"approveNFT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_nftContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_nftContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_sender\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_recipient\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_nftContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_nftId\",\"type\":\"uint256\"}],\"name\":\"transferNFT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"NFTfi\",\"details\":\"Provides logic to transfer Punks\",\"kind\":\"dev\",\"methods\":{\"transferNFT(address,address,address,uint256)\":{\"details\":\"Transfers Punk `_nftId` handled by the contract `_nftContract` from `_sender` to `_recipient`\",\"params\":{\"_nftContract\":\"- Punk contract\",\"_nftId\":\"- Punk id\",\"_recipient\":\"- The new owner of the Punk\",\"_sender\":\"- The current owner of the Punk\"},\"returns\":{\"_0\":\"true if successfully transferred, false otherwise\"}}},\"title\":\"PunkWrapper\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/nftTypeRegistry/nftTypes/PunkWrapper.sol\":\"PunkWrapper\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":900},\"remappings\":[]},\"sources\":{\"contracts/interfaces/INftWrapper.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity 0.8.19;\\n\\n/**\\n * @title INftWrapper\\n * @author NFTfi\\n * @dev Interface for NFT Wrappers.\\n */\\ninterface INftWrapper {\\n    function transferNFT(address from, address to, address nftContract, uint256 tokenId) external returns (bool);\\n\\n    function approveNFT(address to, address nftContract, uint256 tokenId) external returns (bool);\\n\\n    function isOwner(address owner, address nftContract, uint256 tokenId) external view returns (bool);\\n\\n    function balanceOf(address owner, address nftContract, uint256 tokenId) external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x5893806ffc6b8dbc12e94e1ee4ee2b0e54a5e46b42e440f2647569b9e0cc003d\",\"license\":\"BUSL-1.1\"},\"contracts/interfaces/IPunks.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity 0.8.19;\\n\\ninterface IPunks {\\n    function balanceOf(address owner) external view returns (uint256);\\n\\n    function punkIndexToAddress(uint256 punkIndex) external view returns (address);\\n\\n    function transferPunk(address to, uint256 punkIndex) external;\\n\\n    function offerPunkForSaleToAddress(uint256 punkIndex, uint256 minSalePriceInWei, address toAddress) external;\\n\\n    function buyPunk(uint256 punkIndex) external payable;\\n}\\n\",\"keccak256\":\"0xcb48f273a961230fa945c7c0c95a4cc51accbec06badcd591fda5997763108ae\",\"license\":\"BUSL-1.1\"},\"contracts/nftTypeRegistry/nftTypes/PunkWrapper.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\npragma solidity 0.8.19;\\n\\nimport {INftWrapper} from \\\"../../interfaces/INftWrapper.sol\\\";\\nimport {IPunks} from \\\"../../interfaces/IPunks.sol\\\";\\n\\n/**\\n * @title PunkWrapper\\n * @author NFTfi\\n * @dev Provides logic to transfer Punks\\n */\\ncontract PunkWrapper is INftWrapper {\\n    /**\\n     * @dev Transfers Punk `_nftId` handled by the contract `_nftContract` from `_sender` to `_recipient`\\n     *\\n     * @param _sender - The current owner of the Punk\\n     * @param _recipient - The new owner of the Punk\\n     * @param _nftContract - Punk contract\\n     * @param _nftId - Punk id\\n     *\\n     * @return true if successfully transferred, false otherwise\\n     */\\n    function transferNFT(\\n        address _sender,\\n        address _recipient,\\n        address _nftContract,\\n        uint256 _nftId\\n    ) external override returns (bool) {\\n        if (address(this) == _sender) {\\n            IPunks(_nftContract).transferPunk(_recipient, _nftId);\\n        } else {\\n            // solhint-disable-next-line custom-errors\\n            require(isOwner(_sender, _nftContract, _nftId), \\\"PunkWrapper:sender must be owner\\\");\\n            IPunks(_nftContract).buyPunk(_nftId);\\n        }\\n        return true;\\n    }\\n\\n    function approveNFT(address to, address nftContract, uint256 tokenId) external override returns (bool) {\\n        IPunks(nftContract).offerPunkForSaleToAddress(tokenId, 0, to);\\n        return true;\\n    }\\n\\n    function isOwner(address _owner, address _nftContract, uint256 _tokenId) public view override returns (bool) {\\n        return IPunks(_nftContract).punkIndexToAddress(_tokenId) == _owner;\\n    }\\n\\n    function balanceOf(\\n        address _owner,\\n        address _nftContract,\\n        uint256 _tokenId\\n    ) external view override returns (uint256) {\\n        if (isOwner(_owner, _nftContract, _tokenId)) {\\n            return 1;\\n        } else {\\n            return 0;\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x424676d2d3f68d89e8545e5e08c09dbbf49cf4bf3400e75d7b9b08a97a7be598\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061045c806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80637336aaf014610051578063b030667114610079578063e93119d91461008c578063f370e8c5146100ad575b600080fd5b61006461005f3660046103a0565b6100c0565b60405190151581526020015b60405180910390f35b6100646100873660046103e1565b610153565b61009f61009a3660046103a0565b6102d9565b604051908152602001610070565b6100646100bb3660046103a0565b6102fb565b6040517fbf31196f000000000000000000000000000000000000000000000000000000008152600481018290526000602482018190526001600160a01b03858116604484015290919084169063bf31196f90606401600060405180830381600087803b15801561012f57600080fd5b505af1158015610143573d6000803e3d6000fd5b50505050600190505b9392505050565b60006001600160a01b03851630036101e5576040517f8b72a2ec0000000000000000000000000000000000000000000000000000000081526001600160a01b03858116600483015260248201849052841690638b72a2ec90604401600060405180830381600087803b1580156101c857600080fd5b505af11580156101dc573d6000803e3d6000fd5b505050506102ce565b6101f08584846102fb565b61025a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f50756e6b577261707065723a73656e646572206d757374206265206f776e6572604482015260640160405180910390fd5b6040517f8264fe98000000000000000000000000000000000000000000000000000000008152600481018390526001600160a01b03841690638264fe9890602401600060405180830381600087803b1580156102b557600080fd5b505af11580156102c9573d6000803e3d6000fd5b505050505b506001949350505050565b60006102e68484846102fb565b156102f35750600161014c565b50600061014c565b6000836001600160a01b0316836001600160a01b03166358178168846040518263ffffffff1660e01b815260040161033591815260200190565b602060405180830381865afa158015610352573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103769190610432565b6001600160a01b031614949350505050565b6001600160a01b038116811461039d57600080fd5b50565b6000806000606084860312156103b557600080fd5b83356103c081610388565b925060208401356103d081610388565b929592945050506040919091013590565b600080600080608085870312156103f757600080fd5b843561040281610388565b9350602085013561041281610388565b9250604085013561042281610388565b9396929550929360600135925050565b60006020828403121561044457600080fd5b815161014c8161038856fea164736f6c6343000813000a",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80637336aaf014610051578063b030667114610079578063e93119d91461008c578063f370e8c5146100ad575b600080fd5b61006461005f3660046103a0565b6100c0565b60405190151581526020015b60405180910390f35b6100646100873660046103e1565b610153565b61009f61009a3660046103a0565b6102d9565b604051908152602001610070565b6100646100bb3660046103a0565b6102fb565b6040517fbf31196f000000000000000000000000000000000000000000000000000000008152600481018290526000602482018190526001600160a01b03858116604484015290919084169063bf31196f90606401600060405180830381600087803b15801561012f57600080fd5b505af1158015610143573d6000803e3d6000fd5b50505050600190505b9392505050565b60006001600160a01b03851630036101e5576040517f8b72a2ec0000000000000000000000000000000000000000000000000000000081526001600160a01b03858116600483015260248201849052841690638b72a2ec90604401600060405180830381600087803b1580156101c857600080fd5b505af11580156101dc573d6000803e3d6000fd5b505050506102ce565b6101f08584846102fb565b61025a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f50756e6b577261707065723a73656e646572206d757374206265206f776e6572604482015260640160405180910390fd5b6040517f8264fe98000000000000000000000000000000000000000000000000000000008152600481018390526001600160a01b03841690638264fe9890602401600060405180830381600087803b1580156102b557600080fd5b505af11580156102c9573d6000803e3d6000fd5b505050505b506001949350505050565b60006102e68484846102fb565b156102f35750600161014c565b50600061014c565b6000836001600160a01b0316836001600160a01b03166358178168846040518263ffffffff1660e01b815260040161033591815260200190565b602060405180830381865afa158015610352573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103769190610432565b6001600160a01b031614949350505050565b6001600160a01b038116811461039d57600080fd5b50565b6000806000606084860312156103b557600080fd5b83356103c081610388565b925060208401356103d081610388565b929592945050506040919091013590565b600080600080608085870312156103f757600080fd5b843561040281610388565b9350602085013561041281610388565b9250604085013561042281610388565b9396929550929360600135925050565b60006020828403121561044457600080fd5b815161014c8161038856fea164736f6c6343000813000a",
+  "devdoc": {
+    "author": "NFTfi",
+    "details": "Provides logic to transfer Punks",
+    "kind": "dev",
+    "methods": {
+      "transferNFT(address,address,address,uint256)": {
+        "details": "Transfers Punk `_nftId` handled by the contract `_nftContract` from `_sender` to `_recipient`",
+        "params": {
+          "_nftContract": "- Punk contract",
+          "_nftId": "- Punk id",
+          "_recipient": "- The new owner of the Punk",
+          "_sender": "- The current owner of the Punk"
+        },
+        "returns": {
+          "_0": "true if successfully transferred, false otherwise"
+        }
+      }
+    },
+    "title": "PunkWrapper",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

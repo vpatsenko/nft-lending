@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+name: CI
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main, mainnet, development]
+  pull_request:
+    branches: [main, mainnet, development]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    name: Lint Build Test
+    runs-on: ubuntu-latest
+    environment: 'Fork test'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+      - uses: foundry-rs/foundry-toolchain@v1.2.0
+        with:
+          node-version: '18'
+
+      - name: Install
+        run: |
+          yarn global add node-gyp-cache
+          yarn config set node_gyp node-gyp-cache
+          yarn install --frozen-lockfile
+
+      - name: Lint
+        run: yarn lint
+
+      # - name: Test deploy
+      #   # sleep needed so the network has time to set up properly
+      #   env:
+      #     ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+      #   run: |
+      #     yarn local-network &> /dev/null &
+      #     sleep 10
+      #     yarn deploy:local
+
+      - name: Test
+        env:
+          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+        run: yarn test
